@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Threes" />
+            <option value="/media/1516-011E/Documents/projects/android/Threes" />
+            <option value="/media/1516-011E/Documents/projects/android/Threes/Threes" />
           </set>
         </option>
       </GradleProjectSettings>

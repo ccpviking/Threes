@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Three\'s</string>
+    <string name="app_name">Threes</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_adam_sandbox">AdamSandboxActivity</string>
     <string name="title_activity_kalani_sandbox">KalaniSandboxActivity</string>
+    <string name="show_me_da_gee_ell">Show Me Da GL!</string>
 
 </resources>

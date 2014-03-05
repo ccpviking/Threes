@@ -76,4 +76,15 @@ public class MainActivity extends Activity {
         });
     }
 
+    public void LaunchAdamSandbox(View view)
+    {
+        final Button button = (Button) view;
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(MainActivity.this, AdamSandboxActivity.class);
+                MainActivity.this.startActivity(myIntent);
+            }
+        });
+    }
+
 }

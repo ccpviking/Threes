@@ -17,6 +17,10 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.calaboration.threes.AdamSandboxActivity"
+            android:label="@string/title_activity_adam_sandbox" >
+        </activity>
+        <activity
             android:name="com.calaboration.threes.KalaniSandboxActivity"
             android:label="@string/title_activity_kalani_sandbox" >
         </activity>
