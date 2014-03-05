@@ -3,6 +3,7 @@ package com.calaboration.threes;
 import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -10,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
 
@@ -58,8 +60,20 @@ public class MainActivity extends Activity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+
             return rootView;
         }
+    }
+
+    public void LaunchKalaniSandbox(View view)
+    {
+        final Button button = (Button) view;//findViewById(R.id.button2);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(MainActivity.this, KalaniSandboxActivity.class);
+                MainActivity.this.startActivity(myIntent);
+            }
+        });
     }
 
 }

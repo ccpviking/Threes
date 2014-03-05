@@ -4,5 +4,6 @@
     <string name="app_name">Three\'s</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_kalani_sandbox">KalaniSandboxActivity</string>
 
 </resources>
